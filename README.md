@@ -18,7 +18,7 @@
 
 This repository contains my implementation of the **National Student Data Corps (NSDC) Developing a Medical Chatbot Using Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs)** project.
 
-Large Language Models have transformed conversational AI, but they often struggle with domain-specific knowledge and may generate inaccurate or unsupported responses. This project explores how Retrieval-Augmented Generation (RAG) can improve chatbot accuracy by retrieving relevant medical information from a knowledge base before generating responses. Building on this foundation, I fine-tuned a LLaMA-2 model using **LoRA** and **QLoRA** to better understand medical terminology and produce more specialized responses. ([Northeast Big Data Innovation Hub][1])
+Large Language Models have transformed conversational AI, but they often struggle with domain-specific knowledge and may generate inaccurate or unsupported responses. This project explores how Retrieval-Augmented Generation (RAG) can improve chatbot accuracy by retrieving relevant medical information from a knowledge base before generating responses. Building on this foundation, I fine-tuned a LLaMA-2 model using **LoRA** and **QLoRA** to better understand medical terminology and produce more specialized responses. 
 
 Throughout the project, I progressed from a rule-based chatbot to an embedding-powered RAG system and finally to a fine-tuned Large Language Model, gaining practical experience with modern generative AI workflows used in healthcare and other knowledge-intensive domains.
 
@@ -110,7 +110,7 @@ This baseline provided a useful comparison for more advanced AI techniques.
 
 ## Retrieval-Augmented Generation (RAG)
 
-A major focus of this project was learning how Retrieval-Augmented Generation improves Large Language Models.
+A major focus of this project was learning how Retrieval-Augmented Generation improves large language models.
 
 During this stage, I explored:
 
@@ -120,7 +120,7 @@ During this stage, I explored:
 * Knowledge retrieval
 * Context-aware response generation
 
-Rather than relying solely on the LLM's internal knowledge, the chatbot first retrieves relevant medical information before generating an answer, helping reduce hallucinations and improve response quality. ([Northeast Big Data Innovation Hub][1])
+Rather than relying solely on the LLM's internal knowledge, the chatbot first retrieves relevant medical information before generating an answer, helping reduce hallucinations and improve response quality.
 
 ---
 
@@ -159,7 +159,7 @@ This included:
 * Lower memory usage
 * Efficient training on limited hardware
 
-These methods demonstrated how large models can be specialized for healthcare applications without the cost of full model retraining. ([Northeast Big Data Innovation Hub][1])
+These methods demonstrated how large models can be specialized for healthcare applications without the cost of full model retraining.
 
 ---
 
@@ -232,7 +232,7 @@ Throughout this project, I explored several advanced AI concepts, including:
 
 # Key Takeaways
 
-This project demonstrated that combining retrieval systems with Large Language Models can significantly improve the quality and reliability of chatbot responses in specialized domains such as healthcare. By grounding responses in retrieved medical information before generation, Retrieval-Augmented Generation helps reduce hallucinations while providing more contextually relevant answers. Fine-tuning techniques such as LoRA and QLoRA further illustrated how modern language models can be efficiently adapted for domain-specific applications without requiring the computational cost of full model retraining. ([Northeast Big Data Innovation Hub][1])
+This project demonstrated that combining retrieval systems with Large Language Models can significantly improve the quality and reliability of chatbot responses in specialized domains such as healthcare. By grounding responses in retrieved medical information before generation, Retrieval-Augmented Generation helps reduce hallucinations while providing more contextually relevant answers. Fine-tuning techniques such as LoRA and QLoRA further illustrate how modern language models can be efficiently adapted for domain-specific applications without requiring the computational cost of full model retraining.
 
 
 # What I Learned
@@ -243,6 +243,4 @@ This project strengthened my understanding of modern Generative AI by guiding me
 
 # Acknowledgments
 
-This project was completed as part of the **National Student Data Corps (NSDC)** educational program developed by the **Northeast Big Data Innovation Hub (NEBDHub)**. The project introduces students to modern Generative AI techniques through the development of a medical chatbot using Retrieval-Augmented Generation, transformer-based language models, and parameter-efficient fine-tuning methods. ([Northeast Big Data Innovation Hub][1])
-
-[1]: https://nebigdatahub.org/developing-a-medical-chatbot-using-rag-and-llms/?utm_source=chatgpt.com "Developing a Medical Chatbot Using RAG and LLMs | Northeast Big Data Innovation Hub"
+This project was completed as part of the **National Student Data Corps (NSDC)** educational program developed by the **Northeast Big Data Innovation Hub (NEBDHub)**. The project introduces students to modern Generative AI techniques through the development of a medical chatbot using Retrieval-Augmented Generation, transformer-based language models, and parameter-efficient fine-tuning methods.
